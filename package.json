@@ -4,6 +4,7 @@
 	"description": "Create new file / folder more easy with sortcut",
 	"version": "0.1.0",
 	"publisher": "teguholica",
+	"repository": "https://github.com/teguholica/NewFileFolder",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
