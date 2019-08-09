@@ -2,7 +2,7 @@
 	"name": "newfilefolder",
 	"displayName": "NewFileFolder",
 	"description": "Create new file / folder more easy with sortcut",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"publisher": "teguholica",
 	"repository": "https://github.com/teguholica/NewFileFolder",
 	"engines": {
