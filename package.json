@@ -2,7 +2,7 @@
 	"name": "newfilefolder",
 	"displayName": "NewFileFolder",
 	"description": "Create new file / folder more easy with sortcut",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "teguholica",
 	"repository": "https://github.com/teguholica/NewFileFolder",
 	"engines": {
@@ -21,6 +21,13 @@
 				"command": "extension.newfilefolder",
 				"title": "New File Folder"
 			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.newfilefolder",
+				"key": "ctrl+n",
+				"mac": "cmd+n"
+			}
 		]
 	},
 	"scripts": {
@@ -31,10 +38,10 @@
 		"test": "npm run compile && node ./node_modules/vscode/bin/test"
 	},
 	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.14.15",
+		"tslint": "^5.18.0",
+		"typescript": "^3.5.3",
+		"vscode": "^1.1.36"
 	}
 }
